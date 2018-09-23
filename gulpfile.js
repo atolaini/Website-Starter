@@ -63,7 +63,7 @@ gulp.task("minifyImg", () => {
   gulp
     .src("src/assets/images/*")
     .pipe(cache(imagemin()))
-    .pipe(gulp.dest("dist/images"));
+    .pipe(gulp.dest("dist/assets/images"));
 });
 
 //copy fonts
